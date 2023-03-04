@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 20px;
+  background-color: rgb(14, 14, 14);
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: 600;
+  width: 200px;
+  height: 100px;
+  background-color: rgb(127, 127, 127);
+  border: 4px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  user-select: none;
+}
+
+.count_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: white;
+  width: 200px;
+  height: 100px;
+  font-size: 50px;
+  background-color: rgb(0, 203, 81);
+  border: 4px solid white;
+  border-radius: 20px;
+  user-select: none;
+}
+
+.h3 {
+  font-size: 30px;
+  color: white;
+  margin-bottom: -15px;
+  user-select: none;
+}
+
+.h3_count {
+  color: rgb(0, 237, 95);
+}
+
+.click_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  width: 700px;
+  height: 320px;
+  background-color: rgb(255, 0, 93);
+  border-radius: 40px;
+  user-select: none;
+  margin-top: 5px;
+  /* border: 4px solid rgb(255, 255, 255); */
+  cursor: pointer;
+}
+.click_box:active {
+  background-color: rgb(217, 0, 80);
+}
+
+.score {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1100px;
+  height: 670px;
+  background-color: rgb(32, 32, 32);
+  border: 4px solid rgb(255, 255, 255);
+  border-radius: 40px;
+  position: absolute;
+  gap: 70px;
+}
+
+.score_h2 {
+  font-size: 70px;
+  color: rgb(255, 0, 93);
+  user-select: none;
+}
+
+.score_p {
+  font-size: 55px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  user-select: none;
+}
+
+.score_btn {
+  font-size: 35px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  padding: 25px 40px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(0, 203, 81);
+  user-select: none;
+}
+
+.score_btn:active {
+  background-color: rgb(0, 166, 67);
+}
+
+.score_btn:hover {
+  cursor: pointer;
+}
+
+.score_btn::selection {
+  background-color: transparent;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 115, 0);
+  font-size: 70px;
+  gap: 15px;
+  user-select: none;
+}
+
+.green {
+  color: rgb(0, 237, 95);
+  font-weight: 600;
+}
+
+.chery {
+  color: rgb(255, 0, 93);
+  font-weight: 600;
+}
+
+.timer_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95px;
+  height: 95px;
+  border: 4px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  color: white;
+  background-color: rgb(35, 35, 35);
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+}
+
+.sec:active {
+  background-color: rgb(43, 43, 43);
+}
