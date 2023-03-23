@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  user-select: none;
 }
 
 body {
@@ -16,6 +17,11 @@ body {
   max-width: 1300px;
   padding: 0px 20px;
   margin: 0 auto;
+}
+
+::selection{
+  background-color: transparent;
+  color: transparent;
 }
 
 .main {
