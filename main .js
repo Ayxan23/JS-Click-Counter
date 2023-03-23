@@ -31,6 +31,7 @@ function timerFunc() {
         secKey = true;
         score.style.display = "flex";
         score_p.innerHTML = `<span class="chery">${counter}</span> Clicks in <span class="green">${saveSec}</span> Seconds`;
+
         if (counter >= 50) {
           stars.innerHTML = `<i class="fa-solid fa-star"></i>
            <i class="fa-solid fa-star"></i>
