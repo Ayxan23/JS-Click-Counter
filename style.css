@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -19,7 +20,7 @@ body {
   margin: 0 auto;
 }
 
-::selection{
+::selection {
   background-color: transparent;
   color: transparent;
 }
