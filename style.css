@@ -283,6 +283,7 @@ main{
   .score_btn {
     font-size: 32px;
     padding: 25px 45px;
+    margin-bottom: 70px;
   }
   .stars {
     font-size: 45px;
