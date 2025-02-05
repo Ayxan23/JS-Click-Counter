@@ -5,34 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Click Counter</title>
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="/img/click icon.svg" type="image/x-icon" />
   </head>
   <body>
-    <div class="container">
-      <main class="main">
-        <h3 class="h3">Timer</h3>
-        <div class="timer_box">
-          <div class="second_div">
-            <div class="sec">1 Sec</div>
-            <div class="sec">5 Sec</div>
+    <div class="mainWrapper">
+      <header id="header">
+        <section class="headerBox container">
+          <h1>Click Counter</h1>
+        </section>
+      </header>
+
+      <main>
+        <section class="game container">
+          <div class="timer_line">
+            <h3 class="h3">Timer</h3>
           </div>
-          <div class="timer">5</div>
-          <div class="second_div">
-            <div class="sec">10 Sec</div>
-            <div class="sec">15 Sec</div>
+
+          <div class="timer_box">
+            <div class="timer">5</div>
+            <div class="timer_sec">
+              <div class="sec">1 <span>S</span></div>
+              <div class="sec">5 <span>S</span></div>
+              <div class="sec">10 <span>S</span></div>
+              <div class="sec">15 <span>S</span></div>
+            </div>
           </div>
-        </div>
-        <h3 class="h3 h3_count">Counter</h3>
-        <div class="count_box">0</div>
-        <div class="click_box">Click To Start</div>
-        <section class="score">
-          <h2 class="score_h2">YOUR SCORE</h2>
-          <div class="stars"></div>
-          <p class="score_p"></p>
-          <button class="score_btn">TRY AGAIN</button>
+
+          <h3 class="h3 h3_count">Counter</h3>
+          <div class="count_box">0</div>
+
+          <div class="click_box">Click to Start</div>
+
+          <section class="score">
+            <h2 class="score_h2">YOUR SCORE</h2>
+            <div class="stars"></div>
+            <p class="score_p"></p>
+            <button class="score_btn">TRY AGAIN</button>
+          </section>
         </section>
       </main>
+
+      <footer id="footer">
+        <a href="https://www.linkedin.com/in/aykhan-mustafayev23/"
+          >created by: <span>Aykhan Mustafayev</span></a
+        >
+      </footer>
     </div>
     <script
       src="https://kit.fontawesome.com/da35fc8e81.js"
